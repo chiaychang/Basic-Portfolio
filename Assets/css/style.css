@@ -1,0 +1,209 @@
+
+
+.div1 {
+	height: 100px;
+	background-color: #ffffff;
+	margin: 0px;
+	padding: 0px;
+}
+
+.div2 {
+	height: 1000px;
+	background-image: url("../images/snow.jpg");
+	margin: 0px;
+	padding: 0px;
+	clear: both;
+	border-top-style: solid;
+	border-top-width: 2px;
+	border-top-color: #cccccc;
+}
+
+.footer {
+	height: 80px; 
+	background-color: #666666;
+	margin:-30px;
+	text-align: center;
+	border-top-style: solid;
+	border-top-color: #4aaaa5;
+	border-top-width: 5px;
+}
+
+.header {
+   height: 100px;
+   width: 250px;
+   background-color: #4aaaa5;
+   color: #ffffff;
+   margin: 0px;
+   padding: 0px;
+   left: 155px;
+   position: relative;
+   float: left;
+}
+
+.header p {
+   text-align: center;
+   margin: auto;
+   padding: 28px;
+   font-family: serif;
+   font-style: bold;
+   font-size: 37px;
+}
+
+.index {
+	height: 100px;
+	width: 240px;
+	margin: 0px;
+	padding: 0px;
+	right:155px;
+	float: right;
+}
+
+.index p {
+	height: 10px;
+	width: 60px;
+    font-family: Arial;
+    font-style: bold;
+    font-size: 17px;
+    color: #cccccc;
+    float: left;
+    position: relative;
+    right: 180px;
+    top: 30px;
+    padding: 5px;
+    padding-bottom: 9px;
+    padding-left: 7px;
+    margin-top: 10px;
+    text-align: center;
+    overflow: auto;
+}
+
+#about {
+	border-right-style: solid;
+	border-right-color: #cccccc;
+	border-right-width: 2px;
+}
+
+#portfolio {
+	border-right-style: solid;
+    border-right-color: #cccccc;
+	border-right-width: 2px;
+}
+
+.content {
+	width: 650px;
+	height: auto;
+	background-color: #ffffff;
+	float: left;
+	position: relative;
+	left: 155px;
+    top: 30px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #dddddd;
+}
+
+.connect {
+	width: 270px;
+	height: 180px;
+	background-color: #ffffff;
+	position: relative;
+	right: 130px;
+	float: right;
+	top: 30px;
+	padding: 10px;
+	border-style: solid;
+    border-width: 1px;
+    border-color: #dddddd;
+
+}
+
+.content h1 {
+	color: #4aaaa5;
+	font-family: Arial;
+	padding: 20px;
+}
+
+.content p {
+	color: #777777;
+	margin: 20px;
+	font-family: sans-serif;
+	text-indent: 5px;
+}
+
+.profilepic {
+	height: 150px;
+	width: 150px;
+	float: left;
+    padding: 10px;
+}
+
+.footer p {
+	padding: 18px;
+	text-align: center;
+	font-family: sans-serif;
+	color: #eeeeee;
+	font-size: 12px;
+}
+
+.connect h2 {
+	color: #4aaaa5;
+	font-family: Arial;
+	padding: 0px 5px 5px 5px;
+	text-align: center;
+}
+
+.connect img {
+	float: left;
+	padding-left: 5px;
+	margin-left: 10px;
+	height: 70px;
+	width: 70px;
+}
+
+.connect hr {
+	width: 95%;
+	border-top-width: 2px;
+	border-top-color: #dddddd; 
+	margin-bottom: 20px;
+}
+
+
+.content hr {
+	width: 95%;
+	border-top-width: 2px;
+	border-top-color: #dddddd; 
+	margin-bottom: 20px;
+}
+
+.portimg {
+	height: 205px;
+	width: 275px;
+    padding:15px;
+}
+
+td {
+	position: relative;
+}
+
+button {
+    background-color: #4aaaa5; 
+    width: 275px;
+    height: 40px;
+    border-style: none;
+    margin-top: 160px;
+    left: 16px;
+    font-family: sans-serif;
+    font-size: 16px;
+    position: absolute;
+}
+
+.div2 a {
+	z-index: 999;
+	text-decoration: none;
+	color: #eeeeee;
+}
+
+.div2 a:hover {
+	color: pink;
+	font-size: 20px;
+}
