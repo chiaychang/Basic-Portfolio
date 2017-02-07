@@ -18,6 +18,7 @@
 	border-top-color: #cccccc;
 }
 
+
 .footer {
 	height: 80px; 
 	background-color: #666666;
@@ -207,3 +208,40 @@ button {
 	color: pink;
 	font-size: 20px;
 }
+
+form {
+	padding: 15px;
+	height: 600px;
+	width: 600px;
+	font-family: sans-serif;
+	color: #777777;
+	font-size: 16px;
+
+
+}
+
+input {
+	box-sizing: border-box;
+	width: 100%;
+	padding: 10px;
+	font-family: sans-serif;
+	font-size: 15px;
+	color:#cccccc;
+}
+
+#messageform {
+	height: 270px;
+}
+
+#submitbtn {
+	background-color: #4aaaa5;
+	height: 45px;
+	width: 90px;
+	border-style: none;
+	text-align: center;
+	margin: 5px;
+	padding: 5px;
+	color: #ffffff;
+}
+
+
