@@ -1,4 +1,7 @@
-
+body {
+	margin: 0px;
+	background-image: url("../images/snow.jpg");
+}
 
 .div1 {
 	height: 100px;
@@ -8,21 +11,21 @@
 }
 
 .div2 {
-	height: 1000px;
-	background-image: url("../images/snow.jpg");
 	margin: 0px;
 	padding: 0px;
 	clear: both;
 	border-top-style: solid;
 	border-top-width: 2px;
 	border-top-color: #cccccc;
+	overflow: auto;
 }
 
 
 .footer {
 	height: 80px; 
 	background-color: #666666;
-	margin:-30px;
+	margin-top: 50px;
+	padding-left: 10px;
 	text-align: center;
 	border-top-style: solid;
 	border-top-color: #4aaaa5;
@@ -53,51 +56,42 @@
 .index {
 	height: 100px;
 	width: 240px;
-	margin: 0px;
-	padding: 0px;
-	right:155px;
-	float: right;
+	right:182px;
+	position: absolute;
+	top: 40px;
 }
 
-.index p {
-	height: 10px;
-	width: 60px;
+.index a {
     font-family: Arial;
     font-style: bold;
     font-size: 17px;
     color: #cccccc;
-    float: left;
-    position: relative;
-    right: 180px;
-    top: 30px;
-    padding: 5px;
-    padding-bottom: 9px;
-    padding-left: 7px;
-    margin-top: 10px;
     text-align: center;
-    overflow: auto;
+    text-decoration: none;
+    display: inline-block;
+    padding: 5px;
 }
 
-#about {
-	border-right-style: solid;
-	border-right-color: #cccccc;
-	border-right-width: 2px;
-}
+.divider {
+	width: 0px;
+	height: 17px;
+	color: #cccccc;
+	border-style: solid;
+	border-width: 1px;
+	display: inline-block;
+    position: relative;
+    top: 12px;
 
-#portfolio {
-	border-right-style: solid;
-    border-right-color: #cccccc;
-	border-right-width: 2px;
-}
+  }
 
 .content {
 	width: 650px;
-	height: auto;
 	background-color: #ffffff;
 	float: left;
 	position: relative;
 	left: 155px;
     top: 30px;
+    bottom: 40px;
     border-style: solid;
     border-width: 1px;
     border-color: #dddddd;
@@ -121,14 +115,31 @@
 .content h1 {
 	color: #4aaaa5;
 	font-family: Arial;
-	padding: 20px;
+	padding: 5px;
+	margin-left: 28px;
+	font-size: 30px;
 }
 
 .content p {
 	color: #777777;
-	margin: 20px;
+	margin: 15px;
+	padding: 4px;
 	font-family: sans-serif;
-	text-indent: 5px;
+	text-indent: 0px;
+	text-align: left; 
+	font-size: 16px;
+}
+
+#thesis {
+	text-decoration: none;
+	color: #777777;
+	font-family: sans-serif;
+	font-size: 16px;
+}
+
+#thesis:hover {
+	color: pink;
+	font-size: 20px;
 }
 
 .profilepic {
@@ -136,6 +147,7 @@
 	width: 150px;
 	float: left;
     padding: 10px;
+    left-margin
 }
 
 .footer p {
@@ -164,7 +176,7 @@
 .connect hr {
 	width: 95%;
 	border-top-width: 2px;
-	border-top-color: #dddddd; 
+	border-top-color: #cccccc; 
 	margin-bottom: 20px;
 }
 
@@ -172,63 +184,102 @@
 .content hr {
 	width: 95%;
 	border-top-width: 2px;
-	border-top-color: #dddddd; 
+	border-top-color: #cccccc; 
 	margin-bottom: 20px;
 }
 
+.profilepic {
+	height: 200px;
+	width: 200px;
+    margin-left: 15px;
+}
+
+#portfoliopics {
+	left: 26px;
+	position: relative;
+}
 .portimg {
 	height: 205px;
 	width: 275px;
-    padding:15px;
-}
-
-td {
-	position: relative;
+    padding:10px;
 }
 
 button {
     background-color: #4aaaa5; 
     width: 275px;
     height: 40px;
+    left: 10px;
+    bottom: 40px;
     border-style: none;
-    margin-top: 160px;
-    left: 16px;
     font-family: sans-serif;
     font-size: 16px;
     position: absolute;
+    display: inline-block;
+    z-index: 999;
+    color: #eeeeee;
 }
 
 .div2 a {
 	z-index: 999;
 	text-decoration: none;
 	color: #eeeeee;
+	position: relative;
 }
 
-.div2 a:hover {
+button:hover {
 	color: pink;
 	font-size: 20px;
 }
 
 form {
-	padding: 15px;
-	height: 600px;
+	padding: 10px;
 	width: 600px;
 	font-family: sans-serif;
 	color: #777777;
 	font-size: 16px;
-
-
 }
 
 input {
 	box-sizing: border-box;
-	width: 100%;
+	width: 602px;
 	padding: 10px;
 	font-family: sans-serif;
 	font-size: 15px;
 	color:#cccccc;
+	margin: 10px;
 }
 
+input:focus {
+	box-sizing: border-box;
+	width: 602px;
+	padding: 10px;
+	font-family: sans-serif;
+	font-size: 15px;
+	color:#777777;
+	margin: 10px;
+}
+
+textarea {
+	border-color:#cccccc;
+	color: #cccccc;
+	font-family: sans-serif;
+	font-size: 15px;
+	margin: 10px;
+	padding: 10px;
+}
+
+textarea:focus {
+	border-color:#cccccc;
+	color: #777777;
+	font-family: sans-serif;
+	font-size: 15px;
+	margin: 10px;
+	padding: 10px;
+}
+
+label {
+	margin-left: 11px;
+}
 #messageform {
 	height: 270px;
 }
